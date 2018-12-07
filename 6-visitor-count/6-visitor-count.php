@@ -1,7 +1,7 @@
 <?php 
 
 echo "<h2> Welcome to our Website </h2>"; 
-$name=" count.txt"; 
+$name="count.txt"; 
 $file = fopen($name,"r"); 
 $hits= fscanf($file,"%d"); 
 fclose($file); 
