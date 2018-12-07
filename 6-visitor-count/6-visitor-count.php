@@ -12,4 +12,4 @@ fprintf($file,"%d",$hits[0]);
 fclose($file); 
  
 echo "Total count of visitors : ".$hits[0]; 
-?>
+?> 
