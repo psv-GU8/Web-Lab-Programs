@@ -1,0 +1,24 @@
+<script type="text/javascript">
+	document.write("<div style='margin-top: 25%;text-align: center;'><p id='text'></p></div>");
+	var text = document.getElementById("text");
+	var size = 5;
+	var flag=0;
+	function grow(){
+		text.innerHTML = "TEXT-GROWING";
+		text.style.color = "red";
+		size++;
+		text.style.fontSize = size;
+		if(size >= 70) flag = 1;
+	}
+	function shrink(){
+		text.innerHTML = "TEXT-SHRINKING";
+		text.style.color = "blue";
+		size--;
+		text.style.fontSize = size;
+		if(size <= 5) flag = 0;
+	}
+	setInterval(function(){ 
+		if(flag==1)shrink(); 
+		else grow();
+	}, 100);
+</script>
