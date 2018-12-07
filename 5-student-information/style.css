@@ -1,0 +1,8 @@
+*{white-space: initial;display: block;text-align: center;}
+college {display: block; border: 1px solid #000;}
+usn{color:red;}
+name{color:blue;}
+college_name{color:green;}
+branch{color:red;}
+join{color:pink;}
+email{color:purple;}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<vtu>
+	<college>
+		<usn>1JS15IS088</usn>
+		<name>Prajwal</name>
+		<college_name>JSSATE</college_name>
+		<branch>ISE</branch>
+		<join>2015</join>
+		<email>randomid@somewebsite.com</email>
+	</college>
+	
+	<college>
+		<usn>1CZ18EC001</usn>
+		<name>Bob</name>
+		<college_name>CZSE</college_name>
+		<branch>ECE</branch>
+		<join>2018</join>
+		<email>specificid@specificwebsite.com</email>
+	</college>
+	
+	<college>
+		<usn>1JS12ME068</usn>
+		<name>Agastya</name>
+		<college_name>JSS</college_name>
+		<branch>MECH</branch>
+		<join>2012</join>
+		<email>commonid@randomwebsite.com</email>
+	</college>
+</vtu>
