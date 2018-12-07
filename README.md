@@ -35,7 +35,7 @@ d) Search for a word in states that ends in a. Store this word in element 3 of t
 10. Write a PHP program to sort the student records which are stored in the database using selection sort.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-Instructions to run Program 10 :
+*Instructions to run Program 10 :*
 1. Type "mysql -u USERNAME -p" in the command prompt and you will be prompted for password, type in password and hit enter.
 2. Type "create database student;" in MySql prompt.
 3. Then type "use student;" to use the database;
