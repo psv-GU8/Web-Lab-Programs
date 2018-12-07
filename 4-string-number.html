@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>LeftMostVowel and ReverseOfNum</title>
+	<script type="text/javascript">
+		function result(){
+			var raw_data = document.getElementById('raw_data').value.toString();;
+			if(raw_data != ""){
+				if(isNaN(raw_data)){
+					var vowel = "- no vowel found";
+					console.log(raw_data);
+					raw_data = raw_data.toLowerCase().split("");
+					console.log(raw_data);
+					for(var i=0; i<raw_data.length; i++){
+			          if(raw_data[i]=='a' || raw_data[i]=='e' || raw_data[i]=='i' || raw_data[i]=='o' || raw_data[i]=='u'){
+			          	 vowel = raw_data[i];
+			          	 break;
+			          }
+			           i++;
+			      }
+					document.getElementById('output').innerHTML = "Left Most Vowel is " + vowel;
+				}else{
+					document.getElementById('output').innerHTML = raw_data.split("").reverse().join("");
+				}
+			}else{
+				document.getElementById('output').innerHTML = "Input is empty. PLEASE ENTER either text or number";
+			}
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<input id="raw_data" type="text" onblur="result()" value="">
+	</div>
+	<div>
+		<p id="output">Input a String or a Number </p>
+	</div>
+</body>
+</html>
